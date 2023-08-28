@@ -1,0 +1,279 @@
+body {
+    position: relative;
+    margin: 0;
+    padding-top: 64px;
+    background-color: #f0f0f0;
+}
+
+.brand-logo i.material-icons {
+    font-size: 40px; 
+    vertical-align: middle; 
+    margin-right: 10px; 
+}
+
+.brand-logo .logo-text {
+    font-size: 50px; 
+    vertical-align: middle; 
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 160vh; 
+}
+
+.navbar-fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-wrapper {
+    background-image: linear-gradient(to bottom, #6EB2FA, #BAD9FB);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between; 
+    align-items: center;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-wrapper .brand-logo {
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.nav-wrapper .brand-logo i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 20px;
+}
+
+.off-container h5{
+    font-size: 24px;
+    background-color: offwhite; 
+    color: rgb(0, 0, 0); 
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.off-container{
+    font-size: 18px;
+    background-color: offwhite; 
+    color: rgb(0, 0, 0); 
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fullscreen-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.third {
+    border-color: #5A90C7;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #5A90C7 inset, 0 0 0 0 #5A90C7;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+
+.third:hover {
+    box-shadow: 0 0 10px 0 #5A90C7 inset, 0 0 10px 4px #5A90C7;
+}
+
+.nav-button {
+    text-align: center;
+    margin-top: 10px;
+}
+  
+.nav-button a {
+    text-decoration: none; 
+    color: #000; 
+    padding: 5px 5px;
+    border: 1px solid #000; 
+    border-radius: 5px; 
+    margin: 0 5px;
+}
+  
+.container-card{
+    background-color: #f0f0f0; 
+    width: 100%; 
+    overflow-x: auto; 
+    white-space: nowrap; 
+}
+  
+  
+.card {
+  border: 3px double #814f16; 
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 20px; 
+}
+  
+  
+.card-header {
+  color: #0a0a0a;
+  padding: 10px;
+  text-align: center;    
+}
+  
+  
+.tab-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+  
+  
+.tab {
+  margin: 0 15px;
+}
+  
+ 
+.tab a {
+  text-decoration: none;
+  color: #000000;
+}
+  
+  
+.teal {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #BAD9FB;
+  text-align: center;
+}
+
+
+.section-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  margin: 0 -10px; 
+}
+  
+.section-card {
+  width: calc(33.33% - 20px); 
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  box-sizing: border-box; 
+}
+  
+  
+.section-image {
+  max-width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+  
+  
+.section-title {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+  
+.section-card {
+  position: relative;
+}
+  
+.add-button {
+  position: absolute;
+  bottom: 10px; 
+  right: 10px; 
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 5px 10px; 
+  border-radius: 8px; 
+  font-size: 20px; 
+  cursor: pointer;
+  text-decoration: none;
+}
+  
+.add-button:hover {
+  background-color: #2980b9;
+}
+
+.map-container {
+  border: 50px solid #fff; 
+  border-top: 20px solid #fff; 
+  border-bottom: 20px solid #fff; 
+  border-radius: 20px; 
+  overflow: hidden; 
+  width: 100vw; 
+  max-width: 900px; 
+  margin: 0 auto; 
+}
+
+.map-wrapper {
+  position: relative;
+  padding-top: 40%; 
+}
+
+.map-iframe {
+  position: absolute;
+  top: 0;
+  left: -50px;
+  width: calc(100% + 100px); 
+  height: 100%;
+  border: none;
+}
